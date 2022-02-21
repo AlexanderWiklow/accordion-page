@@ -133,8 +133,8 @@ main {
 }
 
 .arrow {
-  float: left;
-  margin-left: 0.5rem;
+  /* float: left;
+  margin-left: 0.5rem; */
   /* display: row;
   align-items: right;
   justify-content: right; */
@@ -185,17 +185,43 @@ main {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
+  width: 90%;
+  /* display: flex; */
   padding: 0 18px;
   /* background-color: rgb(255, 255, 255); */
   display: none;
   overflow: hidden;
+  /* background-color: black; */
+  text-align: center;
 }
 
 .accordion1 {
   float: right;
   margin-right: 9px;
+  margin-top: 15px;
 }
 
 .sectiontext {
-  color: blue;
+  /* width: 30px; */
+  /* color: blue; */
+  height: 20px;
+  line-height: 2rem;
+  /* display: column; */
+  margin-bottom: 8rem;
+  margin-right: 10rem;
+}
+
+.paragraph-text {
+  width: 100%;
+}
+
+.arrow {
+  float: right;
+  margin-right: 9px;
+}
+
+.acc2 {
+  /* display: flex; */
+  /* display: block; */
+  margin: 2rem;
 }

@@ -19,7 +19,7 @@ for (i = 0; i < acc.length; i++) {
 
 /*FIRST ONE*/
 
-var acc1 = document.querySelectorAll("arrow");
+var acc1 = document.getElementsByClassName("arrow");
 var i;
 
 for (i = 0; i < acc1.length; i++) {
